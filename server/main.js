@@ -2,12 +2,6 @@ var mongo = require('mongodb'),
 	Server = mongo.Server,
     Db = mongo.Db,
     BSON = require('bson').BSONPure;
-	
-	var mongo = require('mongodb');
-
-var Server = mongo.Server,
-    Db = mongo.Db,
-    BSON = require('bson').BSONPure;
 
 // This is the IP of the mongoDB database. It can easily be changed to point to your server.
 var server = new Server('localhost', 27017, {
