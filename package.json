@@ -1,7 +1,7 @@
 {
-  "name": "mean-seed-simple",
+  "name": "rock-paper-scissors",
   "version": "1.0.0",
-  "description": "A simple boilerplate for developing apps using ExpressJS, NodeJS, AngularJS and MongoDB",
+  "description": "A minimalist take on Rock, Paper, Scissors",
   "main": "index.js",
   "scripts": {
     "test": "npm test"

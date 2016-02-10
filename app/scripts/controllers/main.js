@@ -2,13 +2,17 @@
 
 /**
  * @ngdoc function
- * @name recipeAppApp.controller:MainCtrl
+ * @name controller:MainCtrl
  * @description
  * # MainCtrl
- * Controller of the recipeAppApp
+ * Controller of the app
  */
 angular.module('mainApp')
     .controller('MainCtrl', function($scope, $http) {
+        /**
+         * I would love in the future to add Lizard and Spock in the game and create
+         * Rock, Paper, Scissors, Lizard, Spock. Maybe in the future.
+         */
         $scope.humanChoice = 'images/paper.svg';
         $scope.computerChoice = 'images/rock.svg';
         $scope.selectedObject = '';
