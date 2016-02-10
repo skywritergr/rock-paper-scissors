@@ -1,1 +1,32 @@
-<h1>{{message}}</h1>
+<div id="mainDiv">
+    <div class="contentDiv player">
+        <h2>Player</h2>
+        <img src={{humanChoice}} alt="">
+        <div id="choices">
+            <img ng-click="highlight('paper')" ng-class="{'chosen':selectedObject==='paper'}" src="images/paper.svg" alt="Paper">
+            <img ng-click="highlight('rock')" ng-class="{'chosen':selectedObject==='rock'}" src="images/rock.svg" alt="Rock">
+            <img ng-click="highlight('scissors')" ng-class="{'chosen':selectedObject==='scissors'}" src="images/scissors.svg" alt="Scissors">
+        </div>
+    </div>
+    <div class="contentDiv">
+        <div id="score">
+            <div>
+                <span>Wins</span>
+                <h3>{{wins}}</h3>
+        </div>
+        <div>
+            <span>Ties</span>
+            <h3>{{ties}}</h3>
+        </div>
+        <div>
+            <span>Loses</span>
+            <h3>{{loses}}</h3>
+        </div>
+        </div>
+        <img id="pickOne" src="images/pickone.png" alt="Pick an option from the list on the left">
+    </div>
+    <div class="contentDiv player">
+        <h2>Computer</h2>
+        <img src={{computerChoice}} alt="">
+    </div>
+</div>

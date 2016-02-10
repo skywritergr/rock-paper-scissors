@@ -1,0 +1,68 @@
+body {
+    text-align: center;
+}
+
+#mainDiv {
+    height: 60vh;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contentDiv {
+    width: 30%;
+    float: left;
+    margin-top: 2%;
+}
+
+.contentDiv img {
+    height: 90%;
+    width: 90%;
+}
+
+#choices img{
+    height: 20%;
+    width: 20%;
+    padding: 3%;
+    cursor: pointer;
+}
+
+#pickOne {
+    height: 20%;
+    float: left;
+    margin-top: 40vh;
+}
+
+.chosen{
+    border: 5px solid darkcyan;
+}
+
+.contentDiv button {
+    padding: 18px 28px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: normal;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    background: darkseagreen;
+    display: block;
+    margin: 0 auto;
+}
+
+.player {
+    height: 100%;
+}
+
+#score {
+    display: block;
+    margin: 0 auto;    
+}
+
+#score div {
+    width: 30%;
+    display: inline-block;
+}
+
+h3 {
+    margin-top: 5%;
+}
